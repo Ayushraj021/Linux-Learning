@@ -1,0 +1,5 @@
+📍 pwd: Discovering my current location in the directory maze.
+📋 ls: Listing all the hidden treasures (files and folders).
+🔄 cd: Navigating through different directories.
+📁 mkdir: Creating new directories from scratch.
+🗑️ rm: Removing unwanted files.

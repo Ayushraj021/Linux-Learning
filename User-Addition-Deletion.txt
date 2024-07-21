@@ -1,0 +1,5 @@
+sudo useradd user_name: for adding new user.
+sudo passwd user_name: for providing the password to the user.
+sudo su user_name: access of new user.
+exit: exit from new user.
+sudo deluser user_name: for deletion of new user.
