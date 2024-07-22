@@ -1,0 +1,9 @@
+grep: to see the content of the file.
+grep word_to_find file_name: for finding out the word in a file.
+#linux is a case sensitive. So, use this command:-
+grep -i word_to_find file_name: for finding out the word in a file.
+
+#pipleline commands:-
+cat file_name | grep word_to_find: for finding out the word in a file.
+#linux is a case sensitive. So, use this command:-
+cat file_name | grep -i word_to_find: for finding out the word in a file.

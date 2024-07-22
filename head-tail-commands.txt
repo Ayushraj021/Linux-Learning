@@ -1,0 +1,11 @@
+head file_name: to print the first 10lines of file.
+tail file_name: to print the last 10lines of file.
+head -n no.of_lines file_name: to print the particular_no._of_lines. from above of the file.
+tail -n no.of_lines file_name: to print the particular_no._of_lines. from last of the file.
+
+#pipleline commands:-
+cat file_name | head: to print the first 10lines of file.
+cat file_name | tail: to print the last 10lines of file.
+cat file_name | head -n no._of_lines: to print the particular_no._of_lines. from above of the file.
+cat file_name | tail -n no._of_lines: to print the particular_no._of_lines. from last of the file.
+
