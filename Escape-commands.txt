@@ -1,0 +1,27 @@
+:/word_to_find: for finding the word from top.
+:?word_to_find: for finding the word from bottom.
+:q: quit the file.
+:hoh: it will unhighlight the previous serached word.
+:set nu: to dispaly the no. of lines.
+:set nonu: not to dispaly the no. of lines.
+u: undo the command.
+ctrl+r: redo the commmand.
+
+yy: copy/ yank the file.
+Steps to be followed:-
+1. Be in normal mode.
+2. Don't press i.
+3. Enter "esc" to go into escape mode.
+4. Enter the line no. which you want to copy like "3G".
+5. Enter "yy" for copy of the line.
+6. Enter the line no. where you want to paste like "10G".
+7. Enter "p" for pasting of the line.
+          OR 
+    Enter "NP" for pasting of the line. ----> Here, N=Nth times you want to paste the same line like-->1,2,3,4,5.
+
+dd: cut the line.
+gg: go into the top of the file.
+shift+g: go into the bottom of the file.
+:s/word_to_find/word_to_replace: for replacing the word on a particular line.
+:Ns/word_to_find/word_to_replace: for replacing the word on a particular line.----> Here, N=no. of line like-1,2,3,4,5.
+:%s/word_to_find/word_to_replace: for replacing the word in entire file.
