@@ -13,3 +13,5 @@ vim /etc/ssh/sshd_config: open the file and edit it.
 search for "/passwd" in ":" mode.
 enable the password authentication from "no" to "yes".
 save the file.
+systemctl restart sshd: for restarting of your system.
+now you can go to new terminal and login to your new_user.
