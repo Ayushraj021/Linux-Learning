@@ -1,0 +1,11 @@
+cat /etc/as-release: to identify the os you use.
+before installing on AWS Linux A2 you need to run the following command:-
+      sudo amazon-linux-entras install epel
+yum install package_name -y: for installing any package.
+yum remove package_name -y: for removing any package.
+yum list available: packages available in your repository.
+yum list all: packages icluding installed into your server.
+yum list installed: installed packages into your server.
+yum list all | wc -l: word count of your packages.
+yu list installed | wc -l: word count of your installed packages.
+yum list available | wc -l: word count of your available packages. Available = all packages - installed packages.
