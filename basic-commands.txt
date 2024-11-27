@@ -13,3 +13,9 @@ sudo init 3 : multi user with n/w but no gui
 sudo init 5 : multi user with n/w & gui
 sudo init 6 : to restart your server
 Echo $? : the prior command is executed successfully
+Tac filename
+Rev filename
+Cat -n filename
+Tty
+Open two terminals:
+- date > new terminal tty
