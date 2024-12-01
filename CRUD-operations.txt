@@ -14,4 +14,3 @@ ls -l: to check the files present in the directory.
 rmdir directory_name: to remove the directory.
 rmdir -r directory_name: for Removing the directory when it is not empty.
 cd .. : exit from directory.
-
