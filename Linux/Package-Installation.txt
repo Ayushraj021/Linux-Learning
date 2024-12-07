@@ -1,0 +1,4 @@
+package_name            :for installing any package in your linux machine.
+which package_name      : for finding the path of installed package.
+
+date                    : for checking of the date and time.

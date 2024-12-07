@@ -1,0 +1,24 @@
+go to the new terminal.
+exit from linux and a directory.
+get control over directory and generate a keypair for new_user.
+ls -la
+change the name of your private diretcory to ".pem".
+go to the old terminal.
+cd /home/new_user: for going to the new_user home directory.
+ls -l
+make a directory ".ssh".
+ls -la
+provide the rwx access to the new_user: chmod 700 .ssh/
+pwd
+cd .ssh
+vim autorized_keys
+ls -la
+cd .. for going to the new_user directory.
+ls -la
+chown user_name:group_name -R .ssh: for providing the ownership to the user.
+now go to the new terminal and check whether new_user is able to login or not from private key: ssh -i new_user new_user@root_user_public_ip_address
+go to old terminal: gpasswd -d new_user user_name: for deleting the user from the group.
+id new_user: for getting the id of the user.
+usermod -g group_name new_user: add the into user's_name group only.
+now delete the user.
+groupdel group_name: for deleting the user group.

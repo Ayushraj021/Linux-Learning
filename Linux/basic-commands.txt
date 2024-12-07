@@ -1,0 +1,21 @@
+📍 pwd    : Discovering my current location in the directory maze.
+📋 ls     : Listing all the hidden treasures (files and folders).
+🔄 cd     : Navigating through different directories.
+📁 mkdir  : Creating new directories from scratch.
+🗑️ rm     : Removing unwanted files.
+
+
+
+sudo init 0 : to shutdown your server
+sudo init 1 : takes your server to single user mode
+sudo init 2 : multi user no n/w & no gui
+sudo init 3 : multi user with n/w but no gui
+sudo init 5 : multi user with n/w & gui
+sudo init 6 : to restart your server
+Echo $?     : the prior command is executed successfully
+Tac filename
+Rev filename
+Cat -n filename
+Tty
+Open two terminals:
+- date > new terminal tty

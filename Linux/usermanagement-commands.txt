@@ -1,0 +1,17 @@
+first of go to the root user: suod su -
+useradd user_name   : for ading the user.
+passwd user_name    : for creating the passwd to the user.
+cat /etc/passwd     : for reading the informations of all users.
+
+open new gitbash terminal for login of new user:
+ssh user_name@public_ipaddress_of_rootuser: for login into new user.
+linux disabled passwd authentication by default.
+
+back to old terminal:
+cp /etc/ssh/sshd_config /tmp/sshd_config_backup: for allowing the permission to the new user.
+vim /etc/ssh/sshd_config                       : open the file and edit it.
+search for "/passwd" in ":" mode.
+enable the password authentication from "no" to "yes".
+save the file.
+systemctl restart sshd                         : for restarting of your system.
+now you can go to new terminal and login to your new_user.
