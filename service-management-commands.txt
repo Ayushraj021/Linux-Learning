@@ -20,9 +20,9 @@ edit it.
 open it: http://public_ip_address:80/hello.html
 
 
-reboot: to restart the server.
+reboot                          : to restart the server.
 whenever, you restart the server, service will not run.
-systemctl start service_name: to restart your server. Here, service_name = nginx.
-systemctl enable service_name: you have to restart the service again and again whenever you restart you server. So, if you run this you didn't need to restart your service again and again.
-systemctl disable service_name: to disable the service.
-systemctl status service_name: for conformation of your service stop or not.
+systemctl start service_name    : to restart your server. Here, service_name = nginx.
+systemctl enable service_name   : you have to restart the service again and again whenever you restart you server. So, if you run this you didn't need to restart your service again and again.
+systemctl disable service_name  : to disable the service.
+systemctl status service_name   : for conformation of your service stop or not.

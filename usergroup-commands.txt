@@ -1,8 +1,8 @@
-groupadd group_name: for creating a user group.
-usermod -g group_name user_name: for adding the user into the primary group.
+groupadd group_name             : for creating a user group.
+usermod -g group_name user_name : for adding the user into the primary group.
 usermod -aG group_name user_name: for adding the user into the secondary group.
-id user_name: for checking the user is added to group or not.
-gpasswd -d user_name group_name: to remove the user from the groyup.
+id user_name                    : for checking the user is added to group or not.
+gpasswd -d user_name group_name : to remove the user from the groyup.
 
 
 user will always added from 1000, before 1000 are system users.

@@ -1,0 +1,6 @@
+Tee Command     : It is uesed to store the output in .txt file and the output will be visible on screen also.
+
+
+
+----------------------------------------------Commands----------------------------------------------------------------
+echo "hello" | tee file_name.txt    : to print the output in screen as well as on file_name.txt.

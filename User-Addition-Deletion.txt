@@ -1,10 +1,10 @@
 #linux will start creating user from 1000 i'd, below 1000 i'd are system user.
 
-sudo useradd user_name: for adding new user.
-sudo passwd user_name: for providing the password to the user.
-cat /stc/passwd: for reading the user's information, present in the root user.
-gentent passwd: for reading the user's information, present in the root user.
-sudo id user_name: for checking the i'd of the user.
-sudo su user_name: access of new user.
-exit: exit from new user.
-sudo deluser user_name: for deletion of new user.
+sudo useradd user_name  : for adding new user.
+sudo passwd user_name   : for providing the password to the user.
+cat /stc/passwd         : for reading the user's information, present in the root user.
+gentent passwd          : for reading the user's information, present in the root user.
+sudo id user_name       : for checking the i'd of the user.
+sudo su user_name       : access of new user.
+exit                    : exit from new user.
+sudo deluser user_name  : for deletion of new user.

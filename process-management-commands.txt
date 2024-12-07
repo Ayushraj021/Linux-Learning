@@ -1,8 +1,8 @@
-ps: for checking the process present in your server.
-ps -ef: to list down all the process of your server.
-sleep N: to sleep your server, when you will type any command it will not respond. Here, N=1,2,3,4,5,...... N is in seconds. This process is known as foreground.
-sleep n &: to sleep in background i.e., your server will work here. This process is known as background process.
-ps -ef | grep process_name: for searching of any process.
-kill process_id: for killing the process. When you will run the "ps -ef" you will the output the second column is "process_id".
-kill -9 process_id: for killing the process forcefully.
-top: current running process.
+ps                          : for checking the process present in your server.
+ps -ef                      : to list down all the process of your server.
+sleep N                     : to sleep your server, when you will type any command it will not respond. Here, N=1,2,3,4,5,...... N is in seconds. This process is known as foreground.
+sleep n &                   : to sleep in background i.e., your server will work here. This process is known as background process.
+ps -ef | grep process_name  : for searching of any process.
+kill process_id             : for killing the process. When you will run the "ps -ef" you will the output the second column is "process_id".
+kill -9 process_id          : for killing the process forcefully.
+top                         : current running process.
