@@ -8,7 +8,10 @@ user's in linux:-
    user/owner    u
    group         g
    other user    o
+   all users     a
 
+
+chmod a+x file_name     : to add the access of execute(x) to all thye user(a).
 chmod u+x file_name     : to add the acess of execute(x) to root user(u).
 chmod u-x file_name     : to remove the access of execute(x) from root user(u).
 chmod +rwx file_name    : to give the access of read, write and execute to all the users.

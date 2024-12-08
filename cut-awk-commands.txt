@@ -1,7 +1,0 @@
-------------------------------------cut-command------------------------------------
-cut -d "delimiter" -f no._from_where_you_want file_name   ----->delimiter=, : // ? ;
-echo URL | cut -d "delimiter" -f no._from_where_you_want file_name
-
-------------------------------------awk-command------------------------------------
-cat file_name | awk -F "delimiter" '{print $NF}'    ----> here N=any no.
-echo URL | awk -F "delimiter" '{print $NF}' 

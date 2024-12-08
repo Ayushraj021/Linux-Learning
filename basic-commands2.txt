@@ -1,7 +1,0 @@
-command_name --help     : for help.
-sudo su-                : for going to root user directory.
-history                 : to check the history of commands.
-cd file_name/           : to go into another directory.
-cd ..                   : for comming back to root directory.
-!!                      : the most recent command gets executed.
-history -c -w           : here "-c" clean the history and "-w" save it on cache memory.

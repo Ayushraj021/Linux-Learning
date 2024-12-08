@@ -1,0 +1,12 @@
+Shell Script ia a file that stores linux commands.
+
+
+
+
+Rules to write the Shell Scripts:
+1. the shell script file should have an extension .sh or .bash
+2. Start the shell script with shebang line     #!/bin/bash
+3. Add proper documentation
+4. Add executable content in the script
+5. Add executable permission to the script
+6. Run the script with an absolute path or relative path or with shell interpreter

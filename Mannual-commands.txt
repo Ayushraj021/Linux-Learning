@@ -1,5 +1,0 @@
-Mannual Commands  : It is used to get the all the insights of a command.
-
--------------------------------Commands----------------------------------------
-man file_name     : to get all the insights of file.
-man mkdir         : to get all the insights of mkdir command.
