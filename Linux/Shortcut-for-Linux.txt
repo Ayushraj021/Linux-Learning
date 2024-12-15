@@ -1,0 +1,10 @@
+This shorcut is used to make our own commands.
+
+
+alias command_you_want_to_make_your_own = 'command_you_want_to_make_changes'
+Eg:-
+open --> vim .bashrc
+alias ar='ansible-playbook raham.yml'
+alias info='ansible all -m setup'
+save chnages and exit the file.
+now run --> source .bashrc
