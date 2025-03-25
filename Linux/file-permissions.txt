@@ -4,7 +4,7 @@ Donate  Define  Number_define
   x      execute    1
 
 user's in linux:-
-     Define    user_deine
+     Define    user_define
    user/owner    u
    group         g
    other user    o
